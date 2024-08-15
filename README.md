@@ -3,10 +3,13 @@ Best team in the 2024 Hackathon❤️
 ## Announcements
 The time zone will be assumed to be Eastern time.
 
-Gary might miss the next meeting.
 ## Meeting Plans
-The next meeting will be on **08/14/24 10 A.M. (eastern time)**
+The next meeting will be on **08/15/24 10 A.M. (eastern time)**
 ## Meeting Summary
+### 8/14
+* **How to use ATAC and RNA data**
+
+In both files, each column represents a cell. If the chromosome peak and gene have a strong correlation in the data (for example, when the chromosome peak has a high value in some cells and the gene also has a high value in these cells), then we can conclude that the chromosome peak correlates with the gene.
 ### 8/13
 * **Different Approach?**
 
@@ -26,4 +29,8 @@ Example: chr1-89196985-89201657 (chromosome location-peak start unit-peak end un
 
 The crucial part of the gene should fall into the peak to make the peak and the gene correlate.
 ## Tasks
-Gary will continue the gene-to-peak approach and try to find a model for it. Besides that, **understanding the other three files and run Code.to.Check.Data.sh** will be the main focuses.
+Extract the training dataset's peak-gene pair data from the ATAC and RNA files.
+* Mai: 1-75
+* Gary: 76-150
+* Jeana: 151-225
+* Ciarrah: 226-300
